@@ -27,7 +27,7 @@ while enter!='kill':
         print 'If you want to end the program after seeing the result, type "kill", and then press enter.'
         print 'If you want to make another calculation instead, type anything else or nothing at all, and then press enter.'
         print '--------------------------------------------.'
-        enter=raw_input('Press enter to continue and make a normal calculation or enter "s" to activate the bonus feature for the next calculation.')
+        enter=raw_input('Press enter to continue.')
     else:
         try: cal.append(float(a))
         except ValueError:
